@@ -1,5 +1,4 @@
 import { Table } from "antd";
-import { Header } from "antd/es/layout/layout";
 
 function OrderList() {
   const data = [
@@ -16,7 +15,6 @@ function OrderList() {
 
   return (
     <div>
-      <Header />
       <h2>Danh sách đơn hàng</h2>
       <Table dataSource={data} columns={columns} rowKey="id" />
     </div>
